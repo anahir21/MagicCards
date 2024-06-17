@@ -1,0 +1,118 @@
+html {
+    background-color: #d9bddb;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    justify-items: center;
+    align-items: start;
+  }
+  
+  .dropdown-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown-color,
+  .dropdown-type {
+    position: relative;
+  }
+  
+  .dropbtn {
+    background-color: #9d68c0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-color:hover .dropdown-content,
+  .dropdown-type:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  #selected-color,
+  #selected-type {
+    margin-top: 10px;
+  }
+  
+  .filterbtn {
+    background-color: #9d68c0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #results-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .card {
+    background-color: #9d68c0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+  }
