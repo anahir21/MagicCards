@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Magic Cards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Welcome!</h2>
+  <div class="container">
+    <div class="dropdown-section">
+      <div class="dropdown-color" id="drop-color">
+        <button class="dropbtn">Choose a color</button>
+        <div class="dropdown-content">
+          <a href="#" id="W">White</a>
+          <a href="#" id="G">Green</a>
+          <a href="#" id="B">Black</a>
+          <a href="#" id="U">Blue</a>
+          <a href="#" id="R">Red</a>
+        </div>
+      </div>
+      <span id="selected-color">Selected color: None</span>
+    </div>
+    <div class="dropdown-section">
+      <div class="dropdown-type" id="drop-type">
+        <button class="dropbtn">Choose a type</button>
+        <div class="dropdown-content">
+          <a href="#" id="creature">Creature</a>
+          <a href="#" id="enchantment">Enchantment</a>
+          <a href="#" id="sorcery">Sorcery</a>
+          <a href="#" id="instant">Instant</a>
+        </div>
+      </div>
+      <span id="selected-type">Selected Type: None</span>
+    </div>
+  </div>
+
+  <button class="filterbtn" id="filterbtn">Filter</button>
+
+  <div id="results-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
