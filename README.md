@@ -47,7 +47,7 @@ Abrir la aplicación en el navegador:
 
 Abre tu navegador web y en la barra de navegación, ingresa http://localhost:8080. Aquí podrás ver la aplicación funcionando.
 
-#Estructura del proyecto
+## Estructura del proyecto
 
 magic-cards-filter/
 ├── index.html      # Contiene el HTML principal
@@ -63,7 +63,7 @@ Este archivo contiene los estilos CSS para la aplicación, de los menús despleg
 script.js
 Este archivo contiene el código JavaScript que maneja la lógica de filtrado y muestra los resultados de la API de Scryfall en la página.
 
-#Uso
+## Uso
 Abre la aplicación en tu navegador.
 Selecciona un color y un tipo utilizando los menús desplegables.
 Haz clic en el botón "Filter".
